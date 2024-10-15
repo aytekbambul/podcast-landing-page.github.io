@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Passion+One:wght@400;700;900&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #111725;
+    color: #fff;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+
+.first-area {
+    width: 30%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+
+}
+
+.pod {
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: 900;
+    user-select: none;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background-color: #53e6af;
+    border-radius: 50%;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.second-area {
+    width: 70%;
+    position: relative;
+}
+
+.second-area img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.opac {
+    width: 100%;
+    height: 100%;
+    background-color: #53e6af;
+    position: absolute;
+    opacity: 0.5;
+    filter: brightness(0.8);
+
+
+}
+
+.backplan {
+    bottom: 0;
+    left: 0;
+    background-color: #111725;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+}
+
+.secondplan {
+    width: 100%;
+
+
+}
+
+.area-1 {
+    width: 100%;
+
+}
+
+.baslik {
+    font-size: 50px;
+    color: #53e6af;
+    font-weight: 100;
+}
+
+.baslik span {
+    color: #fff;
+}
+
+.text {
+    width: 70%;
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.mail {
+    width: 60%;
+    height: 50px;
+    border-radius: 40px;
+    font-weight: 700;
+    margin: 40px 0;
+    background-color: #2c344b;
+    padding: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail2 {
+    width: 60%;
+    height: 50px;
+    border-radius: 40px;
+    font-weight: 700;
+    margin: 40px 0;
+    background-color: #2c344b;
+    padding: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn2 {
+    border: none;
+    width: 40%;
+    height: 90%;
+    border-radius: 40px;
+    color: #111725;
+    background-color: #53e6af;
+    margin: 0 -15px;
+    font-weight: 900;
+    font-family: 'JetBrains Mono', monospace;
+    cursor: pointer;
+}
+
+.text2 {
+    background-color: #2c344b;
+    border: none;
+    height: 100%;
+    width: 60%;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+.request {
+    border: none;
+    width: 40%;
+    height: 90%;
+    border-radius: 40px;
+    color: #111725;
+    background-color: #53e6af;
+    margin: 0 -15px;
+    font-weight: 900;
+    font-family: 'JetBrains Mono', monospace;
+    cursor: pointer;
+
+
+}
+
+.area-2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+
+
+.boxes img {
+    width: 32px;
+}
+
+.boxes {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    color: #5a648a;
+    font-weight: 900;
+}
+
+.boxes img {
+    padding: 0 5px 0 0;
+    filter: brightness(2);
+}
+
+.box3 img {
+    filter: brightness(0);
+}

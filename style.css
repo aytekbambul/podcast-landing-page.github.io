@@ -202,15 +202,10 @@ body {
     display: flex;
     align-items: center;
     margin-right: 30px;
-    color: #5a648a;
+    color: #59668d;
     font-weight: 900;
 }
 
 .boxes img {
     padding: 0 5px 0 0;
-    filter: brightness(2);
-}
-
-.box3 img {
-    filter: brightness(0);
 }
